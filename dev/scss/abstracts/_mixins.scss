@@ -1,0 +1,10 @@
+@use 'abstracts/variables';
+
+@mixin set-font($ffamily, $fweight, $fsize, $fcolor:variables.$clr-white){
+
+    font-family: $ffamily;
+    font-weight: $fweight;
+    font-size: $fsize;
+    color: $fcolor;
+
+}

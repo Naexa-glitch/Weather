@@ -1,0 +1,38 @@
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+
+.country-name{
+
+    @include mixins.set-font(variables.$ff-montserrat, variables.$fw-light, variables.$fs-xlg);
+
+}
+
+.province-name{
+
+    @include mixins.set-font(variables.$ff-red-hat, variables.$fw-bold, variables.$fs-sm);
+
+}
+
+.weather-state{
+
+    @include mixins.set-font(variables.$ff-red-hat, variables.$fw-regular, variables.$fs-xxxsm);
+
+}
+
+.weather-degrees{
+
+    @include mixins.set-font(variables.$ff-red-hat, variables.$fw-bold, variables.$fs-md);
+
+}
+
+.weather-details{
+
+    @include mixins.set-font(variables.$ff-red-hat, variables.$fw-regular, variables.$fs-xxsm);
+
+}
+
+.weather-info{
+
+    @include mixins.set-font(variables.$ff-red-hat, variables.$fw-thin, variables.$fs-xsm);
+
+}

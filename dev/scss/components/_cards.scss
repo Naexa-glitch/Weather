@@ -1,0 +1,45 @@
+@use 'abstracts/variables';
+@use 'components/media-queries';
+
+.card{
+
+    border-color: transparent;
+    margin-left: 4%;
+    border-radius: 4%;
+}
+
+.card-background-blue{
+    background-color: variables.$clr-tempeture-blue;
+}
+
+.card-background-yellow{
+    background-color: variables.$clr-tempeture-yellow;
+}
+
+.card-background-orange{
+    background-color: variables.$clr-tempeture-orange;
+}
+.card-background-red{
+    background-color: variables.$clr-tempeture-red;
+}
+.card-background-red-obscure{
+    background-color: variables.$clr-tempeture-red-obscure;
+}
+.card-background-red-dark{
+    background-color: variables.$clr-tempeture-red-dark;
+}
+
+.card-body{
+
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 9%;
+    padding-bottom: 4%;
+
+}
+
+.img-weather{
+
+    padding-left: 54%;
+
+}

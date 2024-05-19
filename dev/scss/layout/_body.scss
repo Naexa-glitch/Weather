@@ -1,0 +1,29 @@
+@use 'abstracts/variables';
+
+.container{
+
+    margin-left: 0;
+    padding-left: 0;
+
+    max-width: 1370px;
+
+}
+
+.div-padding{
+
+    padding-right: 0;
+
+}
+
+.container-sm{
+
+    max-width: 352px;
+
+}
+
+.bg-body{
+
+    background: transparent linear-gradient(179deg, #053D75 0%, #0098B1 100%) 0% 0% no-repeat padding-box;
+    padding-bottom: 10rem;
+
+}
